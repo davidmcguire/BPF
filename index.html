@@ -52,23 +52,30 @@ color: #3c3c3c;
 
 
 
-@media screen and (max-width: 1000px)  {
-      .bottomleft p {
-        display: none;
-      }
-
-      .bottomright p {
-        display: none;
-      }
-
-      .topleft p {
-        display: none;
-      }
-
-      .middle h1 {
+ @media screen and (min-width: 960px) {
+      .pick p {
         display: block;
         max-width: 320px;
-        margin: 0 auto;
+       margin: 0 auto;
+      }
+
+      .pick a {
+        text-decoration: none;
+      }
+
+      .banner img {
+        display: block;
+        width: 50%;
+       margin: 0 auto;
+      }
+
+    }
+
+    @media screen and (max-width: 1000px) {
+      .banner img {
+        display: block;
+        width: 50%;
+       margin: 0 auto;
       }
 
     }
